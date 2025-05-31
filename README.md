@@ -1,5 +1,5 @@
-Firma 50 fot - Statisk Webbplats
-Detta är en statisk webbplats skapad som ett skolprojekt, med ett starkt fokus på modern och responsiv webbdesign. Projektet visar upp kunskaper inom HTML, CSS (med Sass och Bootstrap) och grundläggande JavaScript för interaktiva element.
+Firma 50 fot Statisk hemsida
+Detta är en statisk hemsida skapad som ett skolprojekt, med ett starkt fokus på modern och responsiv webbdesign. Projektet visar upp kunskaper inom HTML, CSS (med Sass och Bootstrap) och grundläggande JavaScript för interaktiva element.
 
 Funktioner
 Responsiv Design: Anpassad för optimal visning på alla enheter, från mobiler till stora skärmar.
@@ -17,7 +17,7 @@ Responsivitet med Media Queries: Noggranna media queries används för att juste
 CSS-animationer: Användning av @keyframes och JavaScript (Intersection Observer API) för att skapa effektiva animationer vid scroll, vilket ger ett livfullt intryck. Exempel inkluderar fade-in och slide-up effekter.
 Anpassade Färgteman: Projektet har ett definierat färgtema med primärfärger för att skapa ett enhetligt och professionellt utseende.
 Tekniska Specifikationer
-HTML5: För strukturen av webbplatsens innehåll.
+HTML5: För strukturen av hemsidans innehåll.
 CSS3 (Sass/SCSS): För all styling och visuell design.
 JavaScript (ES6+): För interaktiva element och dynamiska animationer.
 Bootstrap 5: CSS-ramverk för responsivitet och layout.
@@ -39,8 +39,8 @@ npm install
 
 Detta kommer att installera Bootstrap, Font Awesome och andra eventuella beroenden i mappen node_modules/.
 
-3. Öppna webbplatsen
-Eftersom detta är en statisk webbplats behöver du ingen server för att köra den.
+3. Öppna hemsidan
+Eftersom detta är en statisk hemsida behöver du ingen server för att köra den.
 
 Öppna filen index.html direkt i din webbläsare.
 
