@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firma 50 fot</title>
+    <link rel="icon" type="image/x-icon" href="src/img/firma50fot.ico" />
+    <link rel="stylesheet" href="src/css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link px-3 fs-5">Hem</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link px-3 fs-5">Om oss</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link px-3 fs-5 active"
+                >Kontakt</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="service.html" class="nav-link px-3 fs-5">Tjänster</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 text-center bg-light animate-on-scroll">
+      <div class="container">
+        <h1 class="display-4 fw-bold mb-3">Kontakta oss</h1>
+        <p class="lead mb-4 mx-auto" style="max-width: 800px">
+          Har du frågor, behöver du en offert, eller vill du diskutera dina
+          behov? Fyll i formuläret nedan eller använd våra direktkontakter. Vi
+          ser fram emot att höra från dig!
+        </p>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light animate-on-scroll">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <h2 class="mb-4">Hitta oss eller hör av dig direkt</h2>
+            <p class="mb-4">
+              Vi är här för att hjälpa dig! Nedan hittar du våra
+              kontaktuppgifter.
+            </p>
+
+            <div class="card shadow-sm mb-3 p-3 animate-on-scroll">
+              <div class="d-flex align-items-center">
+                <i class="fas fa-map-marker-alt fa-2x text-primary me-3"></i>
+                <div>
+                  <h6 class="mb-0">Adress</h6>
+                  <p class="mb-0">Högslingan 46, 134 65 Ingarö</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card shadow-sm mb-3 p-3 animate-on-scroll"
+              style="animation-delay: 0.1s"
+            >
+              <div class="d-flex align-items-center">
+                <i class="fas fa-phone-alt fa-2x text-primary me-3"></i>
+                <div>
+                  <h6 class="mb-0">Telefon</h6>
+                  <p class="mb-0">
+                    <a
+                      href="tel:+46701234567"
+                      class="text-decoration-none text-body"
+                      >070-123 45 67</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card shadow-sm mb-3 p-3 animate-on-scroll"
+              style="animation-delay: 0.2s"
+            >
+              <div class="d-flex align-items-center">
+                <i class="fas fa-envelope fa-2x text-primary me-3"></i>
+                <div>
+                  <h6 class="mb-0">E-post</h6>
+                  <p class="mb-0">
+                    <a
+                      href="mailto:info@firma50fot.se"
+                      class="text-decoration-none text-body"
+                      >info@firma50fot.se</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card shadow-sm mb-3 p-3 animate-on-scroll"
+              style="animation-delay: 0.3s"
+            >
+              <div class="d-flex align-items-center">
+                <i class="fas fa-clock fa-2x text-primary me-3"></i>
+                <div>
+                  <h6 class="mb-0">Öppettider</h6>
+                  <p class="mb-0">Mån-Fre: 08:00 - 17:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h2 class="mb-4">Skicka ett meddelande</h2>
+
+            <form
+              id="contactForm"
+              class="shadow-sm p-4 rounded bg-white animate-on-scroll needs-validation"
+              novalidate
+            >
+              <div class="mb-3">
+                <label for="name" class="form-label">Ditt namn</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Namn Namnsson"
+                />
+                <div class="invalid-feedback" id="nameError">
+                  Vänligen ange ditt namn.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Din e-post</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="namn.namnsson@epost.com"
+                  required
+                />
+                <div class="invalid-feedback" id="emailError">
+                  Vänligen ange en giltig e-postadress.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Ditt meddelande</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Skriv ett meddelande"
+                  required
+                ></textarea>
+                <div class="invalid-feedback" id="messageError">
+                  Vänligen skriv ditt meddelande.
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg mt-3">
+                Skicka meddelande
+              </button>
+            </form>
+
+            <div
+              id="successMessage"
+              class="alert alert-success mt-4 p-4 text-center d-none"
+              role="alert"
+            >
+              <h4>Tack för ditt meddelande!</h4>
+              <p>
+                Vi har mottagit din förfrågan och återkommer så snart som
+                möjligt.
+              </p>
+              <hr />
+              <p class="mb-0">Med vänliga hälsningar,<br />Firma 50 fot</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light animate-on-scroll">
+      <div class="container text-center">
+        <h2 class="mb-4">Var vi finns</h2>
+        <div class="map-responsive rounded shadow-sm">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.4661453926396!2d18.54843257733844!3d59.25881081666327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46f578aa3130ae7b%3A0x635f08d2039a3dc0!2sH%C3%B6gslingan%2046%2C%20134%2065%20Ingar%C3%B6!5e1!3m2!1ssv!2sse!4v1748458041694!5m2!1ssv!2sse"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-2">
+          &copy; 2025 Firma 50 fot. Alla rättigheter förbehållna.
+        </p>
+        <p class="mb-1">Org.nr: 730523-XXXX</p>
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item">
+            <a href="#" class="text-white text-decoration-none"
+              >Integritetspolicy</a
+            >
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-white text-decoration-none">Villkor</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-white text-decoration-none">Support</a>
+          </li>
+        </ul>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/fredric-brehmer-2698223b/"
+            target="_blank"
+            class="text-white fs-4"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
