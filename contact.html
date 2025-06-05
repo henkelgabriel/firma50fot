@@ -141,6 +141,7 @@
                   class="form-control"
                   id="name"
                   placeholder="Namn Namnsson"
+                  name="name"
                 />
                 <div class="invalid-feedback" id="nameError">
                   Vänligen ange ditt namn.
@@ -154,6 +155,7 @@
                   class="form-control"
                   id="email"
                   placeholder="namn.namnsson@epost.com"
+                  name="email"
                   required
                 />
                 <div class="invalid-feedback" id="emailError">
@@ -168,6 +170,7 @@
                   id="message"
                   rows="5"
                   placeholder="Skriv ett meddelande"
+                  name="message"
                   required
                 ></textarea>
                 <div class="invalid-feedback" id="messageError">
@@ -247,6 +250,7 @@
     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="src/js/script.js"></script>
   </body>
 </html>

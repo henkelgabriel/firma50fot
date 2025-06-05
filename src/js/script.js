@@ -71,6 +71,17 @@ elementsToAnimate.forEach((element) => {
         emailError.textContent = "";
         messageError.textContent = "";
       }
+      emailjs.sendForm('service_z1u1g0k', 'template_g119sbi', this, {
+        publicKey: 'Q0YhC8pvaK6XTd1ST',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
 
       resetValidation();
 
